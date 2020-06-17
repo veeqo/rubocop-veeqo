@@ -1,0 +1,8 @@
+AllCops:
+  DisabledByDefault: true
+  TargetRubyVersion: 2.5
+  UseCache: true
+  Exclude:
+    - 'bin/*''
+    - 'db/migrate/**/*''
+    - 'db/schema.rb'
