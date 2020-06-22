@@ -7,10 +7,11 @@ AllCops:
     - 'db/migrate/**/*''
     - 'db/schema.rb'
 
-# 60% of us votes against this cop
+# 60% of us voted against this cop
 Style/StringLiterals:
   Enabled: false
 
+# 100% of us voted for this cop
 # Ignoring spec/**/* to stop Rubocop from triggering on "expect { subject }.to change { User.count }"
 Lint/AmbiguousBlockAssociation:
   Exclude:
