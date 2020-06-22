@@ -1,6 +1,6 @@
 # Rubocop-Veeqo
 
-Rubocop rules (TBD) used in Veeqo
+Every rule [specified](defaults.yml) in this gem has been discussed & voted among Veeqo developers.
 
 ## Installation
 
