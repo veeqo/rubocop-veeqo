@@ -16,3 +16,6 @@ Style/StringLiterals:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
+
+Layout/TrailingEmptyLines:
+  Enabled: true
