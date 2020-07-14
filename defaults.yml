@@ -19,3 +19,7 @@ Lint/AmbiguousBlockAssociation:
 
 Layout/TrailingEmptyLines:
   Enabled: true
+
+Metrics/AbcSize:
+  Enabled: true
+  Max: 20
