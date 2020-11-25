@@ -1,3 +1,11 @@
+# 0.0.4
+
+- Enabled cops:
+  - `Lint/DuplicateMethods`
+  - `Lint/Debugger`
+  - `Lint/DuplicateHashKey`
+  - `Lint/UnreachableCode`
+
 # 0.0.3
 
 - `Metrics/AbcSize` cop enabled

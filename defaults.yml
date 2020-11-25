@@ -23,3 +23,15 @@ Layout/TrailingEmptyLines:
 Metrics/AbcSize:
   Enabled: true
   Max: 20
+
+Lint/DuplicateMethods:
+  Enabled: true
+
+Lint/Debugger:
+  Enabled: true
+
+Lint/DuplicateHashKey:
+  Enabled: true
+
+Lint/UnreachableCode:
+  Enabled: true
