@@ -1,37 +1,15 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
 AllCops:
-  DisabledByDefault: true
-  TargetRubyVersion: 2.5
   UseCache: true
+  SuggestExtensions: false
   Exclude:
     - 'bin/*'
     - 'db/migrate/**/*'
     - 'db/schema.rb'
-
-# 60% of us voted against this cop
-Style/StringLiterals:
-  Enabled: false
-
-# 100% of us voted for this cop
-# Ignoring spec/**/* to stop Rubocop from triggering on "expect { subject }.to change { User.count }"
-Lint/AmbiguousBlockAssociation:
-  Exclude:
-    - 'spec/**/*'
-
-Layout/TrailingEmptyLines:
-  Enabled: true
-
-Metrics/AbcSize:
-  Enabled: true
-  Max: 20
-
-Lint/DuplicateMethods:
-  Enabled: true
-
-Lint/Debugger:
-  Enabled: true
-
-Lint/DuplicateHashKey:
-  Enabled: true
-
-Lint/UnreachableCode:
-  Enabled: true
