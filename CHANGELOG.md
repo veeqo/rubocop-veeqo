@@ -1,3 +1,7 @@
+# 0.0.5
+
+- Use Rubocop 0.88.0
+
 # 0.0.4
 
 - Enabled cops:
