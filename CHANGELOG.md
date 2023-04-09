@@ -1,3 +1,7 @@
+# 0.0.6
+
+- Use Rubocop 1.30.0
+
 # 0.0.5
 
 - Use Rubocop 0.88.0

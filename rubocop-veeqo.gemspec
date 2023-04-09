@@ -11,5 +11,5 @@ Gem::Specification.new do |spec|
   spec.authors  = ['Veeqo']
   spec.files    = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.license  = 'MIT'
-  spec.add_dependency 'rubocop', '~> 0.88.0'
+  spec.add_dependency 'rubocop', '~> 1.30.0'
 end
